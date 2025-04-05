@@ -17,10 +17,10 @@ I'm currently focused on:
 ## 🚀 Projects
 
 ### Featured Repositories
-- **[YOLO-v5-VGG16-for-Screw-Detection](https://github.com/Siichenggg/YOLO-v5-VGG16-for-Screw-Detection)** - Screw detection and condition recognition using computer vision
-- **[ZJU-CarbonViz](https://github.com/Siichenggg/ZJU-CarbonViz)** - Data visualization for carbon emissions
-- **[ME-270](https://github.com/Siichenggg/ME-270)** - Design for Manufacturability
-- **[ME-370](https://github.com/Siichenggg/ME-370)** - Mechanical Design I
+- **[YOLO-v5-VGG16-for-Screw-Detection](https://github.com/Siiichenggg/YOLO-v5-VGG16-for-Screw-Detection)** - Screw detection and condition recognition using computer vision
+- **[ZJU-CarbonViz](https://github.com/Siiichenggg/ZJU-CarbonViz)** - Data visualization for carbon emissions
+- **[ME-270](https://github.com/Siiichenggg/ME-270)** - Design for Manufacturability
+- **[ME-370](https://github.com/Siiichenggg/ME-370)** - Mechanical Design I
 
 ### Current Work
 - 🤖 Developing reinforcement learning algorithms for robotic arm control
@@ -57,8 +57,8 @@ I'm currently focused on:
 ## 📈 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Siichenggg&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Siichenggg&layout=compact&langs_count=7&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Siiichenggg&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Siiichenggg&layout=compact&langs_count=7&theme=tokyonight"/>
 </div>
 
 ## 📫 Connect with Me
@@ -66,7 +66,7 @@ I'm currently focused on:
 <div align="center">
   
   [![Email](https://img.shields.io/badge/Email-lu89@illinois.edu-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lu89@illinois.edu)
-  [![GitHub](https://img.shields.io/badge/GitHub-Siichenggg-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Siichenggg)
+  [![GitHub](https://img.shields.io/badge/GitHub-Siiichenggg-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Siiichenggg)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
   
 </div>
@@ -74,7 +74,7 @@ I'm currently focused on:
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Siichenggg&color=blueviolet&style=flat-square" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=Siiichenggg&color=blueviolet&style=flat-square" alt="Profile views"/>
   <br>
   <em>Thanks for visiting my GitHub profile! Feel free to reach out for collaborations or just to say hi!</em>
 </div>
