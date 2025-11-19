@@ -65,7 +65,7 @@ I'm currently focused on:
 
 <div align="center">
   
-  [![Email](https://img.shields.io/badge/Email-lu89@illinois.edu-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lu89@illinois.edu)
+  [![Email](https://img.shields.io/badge/Email-lu89@illinois.edu-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:slu69@jh.edu)
   [![GitHub](https://img.shields.io/badge/GitHub-Siiichenggg-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Siiichenggg)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/)
   
