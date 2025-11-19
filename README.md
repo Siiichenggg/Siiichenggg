@@ -1,7 +1,7 @@
 # 👋 Hi there, I'm Sicheng Lu (卢思成)
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=6A5ACD&center=true&vCenter=true&width=435&lines=Mechanical+Engineering+Student;Robotics+Researcher;Reinforcement+Learning+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=6A5ACD&center=true&vCenter=true&width=435&lines=Robotics;Reinforcement+Learning" alt="Typing SVG" />
 </div>
 
 > The only way to do great work is to love what you do
