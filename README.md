@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Sicheng Lu (卢思成)
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=6A5ACD&center=true&vCenter=true&width=520&lines=Robotics;Computer+Vision;Robot+Learning;Embodied+AI" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=6A5ACD&center=true&vCenter=true&width=560&lines=Robotics;Computer+Vision;Robot+Learning;Surgical+AI;Embodied+Intelligence" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -14,28 +14,42 @@
 
 I'm a graduate student in **Robotics at Johns Hopkins University**, with a background in **Mechanical Engineering** and **Electrical & Computer Engineering**.
 
-My work sits at the intersection of:
+My work lies at the intersection of:
 
 - **Robotics**
 - **Computer Vision**
 - **Robot Learning**
 - **Human-Robot Interaction**
+- **Embodied AI**
 
-I'm especially interested in building robotic systems that can **perceive complex environments, learn effective behaviors, and collaborate safely with humans**.
+I'm broadly interested in developing robotic systems that can **perceive complex environments, learn effective behaviors, and interact safely with the real world**.
 
 ---
 
 ## 🔬 Research Interests
 
 - **Robot Learning** for control, adaptation, and decision-making
-- **Computer Vision** for robotics, perception, and scene understanding
+- **Computer Vision** for robotics, scene understanding, and perception
 - **Human-Robot Collaboration** in real-world environments
 - **Embodied AI** for manipulation, navigation, and autonomous systems
+- **Medical / Surgical AI** for video understanding and foundation models
 - **Mechanical Design** and system integration for robotic platforms
 
 ---
 
-## 🚀 Featured Projects
+## 📝 Selected Publications
+
+- **Scaling Video Pretraining for Surgical Foundation Models**  
+  **S. Lu**, Z. Xiao, J. Wei, D. Sun, Q. Lu, K. Hu, Y. Feng, J. Wu, Z. Yang, Z. Liu  
+  *arXiv preprint, 2026*
+
+- **RustGAN: A method to generate rusty screw with physicochemical constraints**  
+  **S. Lu**, C. Xu, Q. Lin, Y. Gao, Z. He  
+  *2024 International Conference on Advanced Mechatronic Systems (ICAMechS), 2024*
+
+---
+
+## 🚀 Selected Projects
 
 ### Public Repositories
 
@@ -57,6 +71,7 @@ I'm especially interested in building robotic systems that can **perceive comple
 
 - 🤖 Robot learning for control and embodied decision-making
 - 👁️ Vision-based perception for robotics and real-world interaction
+- 🏥 Surgical video understanding and foundation models
 - 🦾 Human-robot collaboration with manipulation systems
 - 🛠️ Integrating learning, perception, and mechanical design into deployable robotic platforms
 
