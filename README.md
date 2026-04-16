@@ -129,7 +129,7 @@ I'm broadly interested in developing robotic systems that can **perceive complex
   
   [![Email](https://img.shields.io/badge/Email-slu69@jh.edu-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:slu69@jh.edu)
   [![GitHub](https://img.shields.io/badge/GitHub-Siiichenggg-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Siiichenggg)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin-id)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/your-linkedin-id](https://linkedin.com/in/your-linkedin-id))
 
 </div>
 
