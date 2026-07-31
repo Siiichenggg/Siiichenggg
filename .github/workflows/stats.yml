@@ -1,0 +1,40 @@
+name: stats-cards
+
+on:
+  schedule:
+    - cron: "23 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch github-readme-stats (pinned)
+        run: |
+          git init grs
+          cd grs
+          git remote add origin https://github.com/anuraghazra/github-readme-stats.git
+          git fetch --depth 1 origin 54a7985aeefda00d5eadb55b80c17c7f976c37d2
+          git checkout FETCH_HEAD
+          npm ci
+
+      - name: Generate cards
+        env:
+          PAT_1: ${{ secrets.GITHUB_TOKEN }}
+        run: node generate.mjs
+
+      - name: Commit refreshed cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated
+          git diff --cached --quiet || (git commit -m "chore: refresh stats cards" && git push)
