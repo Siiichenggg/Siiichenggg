@@ -29,7 +29,7 @@ jobs:
 
       - name: Generate cards
         env:
-          PAT_1: ${{ secrets.GITHUB_TOKEN }}
+          PAT_1: ${{ secrets.STATS_TOKEN }}
         run: node generate.mjs
 
       - name: Commit refreshed cards
