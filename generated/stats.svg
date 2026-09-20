@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Sicheng Lu's GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 16, Total Commits  (last year) : 1379, Total PRs: 14, Total Issues: 0, Contributed to (last year): 5</desc>
+        <desc id="descId">Total Stars Earned: 16, Total Commits  (last year) : 1380, Total PRs: 14, Total Issues: 0, Contributed to (last year): 6</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 192.24740429062683;
+        stroke-dashoffset: 192.23624483010832;
       }
     }
   
@@ -222,7 +222,7 @@
         x="219.01"
         y="12.5"
         data-testid="contribs"
-      >5</text>
+      >6</text>
     </g>
   </g>
     </svg>
