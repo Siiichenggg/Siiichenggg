@@ -1,157 +1,83 @@
-# 👋 Hi, I'm Sicheng Lu (卢思成)
+# Sicheng Lu &nbsp;&middot;&nbsp; 卢思成
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=6A5ACD&center=true&vCenter=true&width=560&lines=Robotics;Computer+Vision;Robot+Learning;Surgical+AI;Embodied+Intelligence" alt="Typing SVG" />
-</div>
+M.S.E. student in [Robotics](https://lcsr.jhu.edu/) at [Johns Hopkins University](https://www.jhu.edu/), working in the
+[ARCADE Lab](https://arcade.cs.jhu.edu/) with [Prof. Mathias Unberath](https://mathiasunberath.github.io/).
+Previously B.S. in Mechanical Engineering at [UIUC](https://illinois.edu/) and B.Eng. at
+[Zhejiang University](https://www.zju.edu.cn/english/), with a minor in ECE.
+Applying to PhD programs for Fall 2027.
 
-<div align="center">
-  <em>Building intelligent robotic systems through perception, learning, and control.</em>
-</div>
-
-<div align="center">
-  <br>
-  <a href="https://siiichenggg.github.io">
-    <img src="https://img.shields.io/badge/🏠_Homepage-siiichenggg.github.io-6A5ACD?style=for-the-badge" alt="Homepage"/>
-  </a>
-</div>
+[Homepage](https://siiichenggg.github.io/) &middot;
+[CV](https://siiichenggg.github.io/cv.pdf) &middot;
+[Google Scholar](https://scholar.google.com/citations?user=hLtc_3MAAAAJ) &middot;
+[Hugging Face](https://huggingface.co/SichengLu) &middot;
+[LinkedIn](https://www.linkedin.com/in/sicheng-lu-727b29310/) &middot;
+[slu69@jh.edu](mailto:slu69@jh.edu)
 
 ---
 
-## 🧑‍💻 About Me
+## Research
 
-I'm a graduate student in **Robotics at Johns Hopkins University**, with a background in **Mechanical Engineering** and **Electrical & Computer Engineering**.
+I study embodied AI and humanoid robot learning, with the operating room as the driving application:
+vision-language navigation, visuomotor policies, sim-to-real transfer, and perception from surgical video to
+embodied agents. I have worked on how a humanoid can use a room's ambient cameras to plan and replan its
+actions&nbsp;[[1]](#1), and I am now training an end-to-end vision-language navigation policy for the Unitree G1
+in a reconstructed operating room, with sim-to-real transfer as the goal. Before that, I built video foundation
+models for surgical perception&nbsp;[[2]](#2).
 
-My work lies at the intersection of:
+The question I want to work on next: **how can a robot learn in simulated operating rooms and still understand
+and act reliably in real ones?**
 
-- **Robotics**
-- **Computer Vision**
-- **Robot Learning**
-- **Human-Robot Interaction**
-- **Embodied AI**
+## Publications
 
-I'm broadly interested in developing robotic systems that can **perceive complex environments, learn effective behaviors, and interact safely with the real world**.
+<sup>\* equal contribution</sup>
 
----
+<a id="1"></a>
+**[1] [ActOR: Ambient AI-Based Agentic Orchestration for Humanoid Autonomy in Operating Rooms](https://arxiv.org/abs/2611.04255)** <br>
+Han Zhang\*, **Sicheng Lu**\*, Aleks Santari, Jeffrey K. Jopling, Masaru Ishii, Mathias Unberath <br>
+*arXiv:2611.04255*, 2026. Under review. <br>
+[[arXiv]](https://arxiv.org/abs/2611.04255) [[Project]](https://hanzhang206.github.io/ActOR/)
 
-## 🔬 Research Interests
+> An LLM agent plans locomotion and manipulation skills for a Unitree G1 humanoid over a digital twin fused from
+> ambient and head cameras, and replans from execution feedback. In simulation, ambient perception cut exploration
+> from 1.05 to 0.12 calls per trial for out-of-view targets, and closed-loop feedback raised success from 46.7% to
+> 83.3%. In a physical mock OR, the robot completed 14 of 20 single-object disposal trials autonomously.
 
-- **Robot Learning** for control, adaptation, and decision-making
-- **Computer Vision** for robotics, scene understanding, and perception
-- **Human-Robot Collaboration** in real-world environments
-- **Embodied AI** for manipulation, navigation, and autonomous systems
-- **Medical / Surgical AI** for video understanding and foundation models
-- **Mechanical Design** and system integration for robotic platforms
+<a id="2"></a>
+**[2] [Scaling Video Pretraining for Surgical Foundation Models](https://arxiv.org/abs/2603.29966)** <br>
+**Sicheng Lu**\*, Zikai Xiao\*, Jianhui Wei\*, Danyu Sun, Qi Lu, Keli Hu, Yang Feng, Jian Wu, Zongxin Yang, Zuozhu Liu <br>
+*arXiv:2603.29966*, 2026. <br>
+[[arXiv]](https://arxiv.org/abs/2603.29966) [[Code]](https://github.com/Siiichenggg/SurgRec) [[Weights]](https://huggingface.co/SichengLu/SurgRec)
 
----
+> A scalable, reproducible pretraining recipe for surgical video understanding: 10,535 surgical videos
+> (214.5M frames), MAE and JEPA variants pretrained with balanced sampling, and a standardized 16-dataset benchmark
+> across four clinical domains. SurgRec-MAE gains +3.18 points over VideoMAE and SurgRec-JEPA +2.61 over V-JEPA
+> on average.
 
-## 📝 Selected Publications
+<a id="3"></a>
+**[3] [RustGAN: A Method to Generate Rusty Screw with Physicochemical Constraints](https://doi.org/10.1109/ICAMechS63130.2024.10818721)** <br>
+**Sicheng Lu**, Chen Xu, Qiong Lin, Yicong Gao, Zhiliang He <br>
+*International Conference on Advanced Mechatronic Systems (ICAMechS)*, pp. 7–12, 2024. <br>
+[[DOI]](https://doi.org/10.1109/ICAMechS63130.2024.10818721)
 
-- **Scaling Video Pretraining for Surgical Foundation Models**  
-  **S. Lu**, Z. Xiao, J. Wei, D. Sun, Q. Lu, K. Hu, Y. Feng, J. Wu, Z. Yang, Z. Liu  
-  *arXiv preprint, 2026* · [[Paper]](https://arxiv.org/abs/2603.29966)
+## Code
 
-- **RustGAN: A method to generate rusty screw with physicochemical constraints**  
-  **S. Lu**, C. Xu, Q. Lin, Y. Gao, Z. He  
-  *2024 International Conference on Advanced Mechatronic Systems (ICAMechS), 2024* · [[Paper]](https://ieeexplore.ieee.org/document/10818721/)
+- **[SurgRec](https://github.com/Siiichenggg/SurgRec)** — official code and pretrained models for&nbsp;[2]: pretraining, evaluation, and the 16-dataset benchmark.
+- **[meshmark](https://github.com/Siiichenggg/meshmark)** — browser tool to hand-annotate objects and routes in a scanned room, with linked top-down and 3D views.
 
----
+## Experience
 
-## 🚀 Selected Projects
+- **Graduate Researcher**, ARCADE Lab, Johns Hopkins University — Prof. Mathias Unberath &middot; 2026 – present
+- **Research Assistant**, ZJU-UIUC Institute, Zhejiang University — Prof. Zuozhu Liu &middot; 2025 – 2026
+- **Course Assistant**, Computer Integrated Surgery I, Johns Hopkins University — [Prof. Russell H. Taylor](https://www.cs.jhu.edu/~rht/) &middot; Fall 2026
+- **Teaching Assistant**, Introductory Solid Mechanics, ZJU-UIUC Institute &middot; Spring 2024
 
-### Public Repositories
+## Toolbox
 
-- **[claude-hud-glm](https://github.com/Siiichenggg/claude-hud-glm)**  
-  Statusline HUD plugin for Claude Code: context usage, active tools, running agents, and GLM API balance
+Unitree G1 &middot; ZED cameras &middot; Jetson Orin &middot; ROS 2 / Nav2 &middot; Isaac Sim / Isaac Lab &middot; MuJoCo &middot; PyTorch
 
-- **[SurgRec-open-source](https://github.com/Siiichenggg/SurgRec-open-source)**  
-  Official code release scaffold for SurgRec surgical foundation model experiments
-
-- **[YOLO-v5-VGG16-for-Screw-Detection](https://github.com/Siiichenggg/YOLO-v5-VGG16-for-Screw-Detection)**  
-  Vision-based screw detection and condition recognition for industrial scenarios
-
-- **[ZJU-CarbonViz](https://github.com/Siiichenggg/ZJU-CarbonViz)**  
-  Data visualization project for carbon emissions analysis
-
-- **[ME-270](https://github.com/Siiichenggg/ME-270)**  
-  Design for Manufacturability coursework and engineering design work
-
-- **[ME-370](https://github.com/Siiichenggg/ME-370)**  
-  Mechanical Design I projects and related implementations
-
----
-
-## 🧪 Current Focus
-
-- 🤖 Robot learning for control and embodied decision-making
-- 👁️ Vision-based perception for robotics and real-world interaction
-- 🏥 Surgical video understanding and foundation models
-- 🦾 Human-robot collaboration with manipulation systems
-- 🛠️ Integrating learning, perception, and mechanical design into deployable robotic platforms
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-  
-  ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-  ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-  ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
-  ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-  ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-  ![ROS](https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-  ![CAD](https://img.shields.io/badge/CAD-0696D7?style=for-the-badge&logo=autodesk&logoColor=white)
-
-</div>
-
-### Core Areas
-
-- **Robotics**: Kinematics, Control, Motion Planning, Manipulation
-- **Vision**: Detection, Recognition, Scene Understanding, Vision for Robotics
-- **AI / ML**: Deep Learning, Reinforcement Learning, Representation Learning
-- **Engineering**: Mechanical Design, System Integration, Prototyping
-- **Programming**: Python, C++, MATLAB, TypeScript
-
----
-
-## 🎓 Education
-
-**Johns Hopkins University**  
-*Graduate Student in Robotics*
-
-**Zhejiang University & University of Illinois Urbana-Champaign**  
-*Dual Degree Program at ZJU-UIUC Institute*  
-- Mechanical Engineering Major  
-- Electrical and Computer Engineering Minor  
-
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-  <img height="180em" src="generated/stats.svg"/>
-  <img height="180em" src="generated/top-langs.svg"/>
-</div>
-
----
-
-## 📫 Connect with Me
-
-<div align="center">
-  
-  [![Homepage](https://img.shields.io/badge/Homepage-siiichenggg.github.io-6A5ACD?style=for-the-badge&logo=githubpages&logoColor=white)](https://siiichenggg.github.io)
-  [![Email](https://img.shields.io/badge/Email-slu69@jh.edu-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:slu69@jh.edu)
-  [![Google Scholar](https://img.shields.io/badge/Scholar-Sicheng_Lu-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=hLtc_3MAAAAJ)
-  [![GitHub](https://img.shields.io/badge/GitHub-Siiichenggg-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Siiichenggg)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sicheng-lu-727b29310/)
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Siiichenggg&color=blueviolet&style=flat-square" alt="Profile views"/>
-  <br>
-  <em>Thanks for visiting my profile — feel free to reach out for collaboration, research, or robotics-related discussions.</em>
-</div>
+<details>
+<summary><sub>GitHub activity</sub></summary>
+<br>
+<img height="150em" src="generated/stats.svg" alt="GitHub stats"/>
+<img height="150em" src="generated/top-langs.svg" alt="Top languages"/>
+</details>
