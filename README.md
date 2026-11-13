@@ -61,6 +61,7 @@ Han Zhang\*, **Sicheng Lu**\*, Aleks Santari, Jeffrey K. Jopling, Masaru Ishii, 
 
 ## Code
 
+- **ActOR** — the LLM agent, MuJoCo operating-room scenes, and real-robot stack for&nbsp;[1]. Code release pending; demo videos on the [project page](https://hanzhang206.github.io/ActOR/).
 - **[SurgRec](https://github.com/Siiichenggg/SurgRec)** — official code and pretrained models for&nbsp;[2]: pretraining, evaluation, and the 16-dataset benchmark.
 - **[meshmark](https://github.com/Siiichenggg/meshmark)** — browser tool to hand-annotate objects and routes in a scanned room, with linked top-down and 3D views.
 
